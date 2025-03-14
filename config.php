@@ -1,7 +1,7 @@
 <?php
-    $host = 'localhost';
-    $dbusername = 'root';
-    $dbpassword = '';
+    $host = 'mushroom.mysql.database.azure.com';
+    $dbusername = 'Mushroom';
+    $dbpassword = 'QueenV2025';
     $database = 'mushroom';
 
 // Create connection
