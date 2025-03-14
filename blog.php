@@ -44,7 +44,7 @@ $result = $conn->query($query);
                 echo "<article class='blog-post'>";
                 if (!empty($row["image"])) {
                     echo "<div class='image-container'>";
-                    echo "<img src='http://localhost/ITS122L/img/" . htmlspecialchars($row["image"]) . "' alt='Blog Image'>";
+                    echo "<img src='img/" . htmlspecialchars($row["image"]) . "' alt='Blog Image'>";
                     echo "</div>";
                 }
                 echo "<div class='content'>";
