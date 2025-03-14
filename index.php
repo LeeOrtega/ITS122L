@@ -21,7 +21,7 @@
         <div class="right-navbar">
           <ul>
             <li><a href="blog.php">BLOG</a></li>
-            <li><a href="contact.php">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
       </nav>
