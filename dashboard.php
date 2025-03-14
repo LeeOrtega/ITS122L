@@ -116,7 +116,7 @@ $users = mysqli_fetch_all($users_result, MYSQLI_ASSOC);
                             <td><?php echo htmlspecialchars($post['title']); ?></td>
                             <td>
                                 <?php if (!empty($post['image'])): ?>
-                                    <img src="uploads/<?php echo htmlspecialchars($post['image']); ?>" alt="Post Image" width="100">
+                                    <img src="img/<?php echo htmlspecialchars($post['image']); ?>" alt="Post Image" width="100">
                                 <?php else: ?>
                                     No Image
                                 <?php endif; ?>
