@@ -20,6 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("sssss", $f_name, $l_name, $email, $phone, $message);
 
     if ($stmt->execute()) {
+        $stmt->close();
+        $conn->close();
         header("Location: success.html");
         exit();
     } else {
