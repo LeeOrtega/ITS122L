@@ -62,7 +62,7 @@ $users = mysqli_fetch_all($users_result, MYSQLI_ASSOC);
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 <li class="nav-item"><a class="nav-link btn btn-danger text-white" href="logout.php">Logout</a></li>
             </ul>
         </div>
