@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <h2>Let's Get In Touch.</h2>
                 <p>Or just reach out manually to <a href="mailto:queenvmushroomfarm@gmail.com">queenvmushroomfarm@gmail.com</a></p>
-                <form action="#" method="POST">
+                <form action="contact.php" method="POST">
                     <div class="input-row">
                         <div class="input-group">
                             <label for="first-name">First Name</label>
