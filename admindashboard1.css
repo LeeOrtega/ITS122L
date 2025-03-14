@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #2f4f2f;
+}
+
+.navbar {
+    background-color: #2f4f2f;
+    color: white;
+}
+
+.nav-item{
+    margin:10px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.dashboard-container {
+    background: #d0e8d0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #2f4f2f;
+}
+
+/* Table Styling */
+.table {
+    background: #c4dfc4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #2f4f2f;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    background: #e0f0e0;
+    max-width: 100px; /* Adjust as needed */
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Buttons */
+.btn-primary {
+    background-color: #3b6b35;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2f4f2f;
+}
+
+.btn-danger {
+    background-color: #6a994e;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #588d42;
+}
+
+/* Form Section */
+.card {
+    background: #d0e8d0;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea {
+    border: 1px solid #2f4f2f;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    background: #e6f4ea;
+    color: #2f4f2f;
+}
+
+/* Image Preview */
+img {
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
