@@ -33,7 +33,7 @@
         <div class="text-overlay">
           <h1>WELCOME TO</h1>
           <h2>THE QUEEN V MUSHROOM FARM</h2>
-          <a href="contact.php" class="btn">JOIN US</a>
+          <a href="contact.html" class="btn">JOIN US</a>
         </div>
       </div>
       <div class="slide">
