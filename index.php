@@ -172,7 +172,7 @@
       </div>
       <div class="footer-content">
           <div class="footer-links">
-              <a href="contact.php">JOIN US</a>
+              <a href="contact.html">JOIN US</a>
               <a href="blog.php">BLOG</a>
               
           </div>
