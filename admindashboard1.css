@@ -98,6 +98,11 @@ input[type="text"], textarea {
     color: #2f4f2f;
 }
 
+.excerpt {
+    white-space: pre-line;
+}
+
+
 /* Image Preview */
 img {
     border-radius: 5px;
