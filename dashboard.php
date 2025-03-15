@@ -121,7 +121,7 @@ $users = mysqli_fetch_all($users_result, MYSQLI_ASSOC);
                                     No Image
                                 <?php endif; ?>
                             </td>
-                            <td><?php echo nl2br htmlspecialchars($post['content']); ?></td>
+                            <td><?php echo nl2br (htmlspecialchars($post['content'])); ?></td>
                             <td><?php echo $post['created_at']; ?></td>
                             <td>
                                 <button class="btn btn-warning btn-sm" onclick="showEditForm('<?php echo $post['id']; ?>', '<?php echo htmlspecialchars($post['title']); ?>', '<?php echo htmlspecialchars($post['content']); ?>', '<?php echo htmlspecialchars($post['image']); ?>')">Edit</button>
