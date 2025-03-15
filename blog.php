@@ -50,7 +50,8 @@ $result = $conn->query($query);
                 echo "<div class='content'>";
                 echo "<h2>" . htmlspecialchars($row["title"]) . "</h2>";
                 echo "<p class='date'>" . date("F j, Y", strtotime($row["created_at"])) . "</p>";
-                echo "<p class='excerpt'>" . nl2br(htmlspecialchars(substr($row["content"], 0, 200))) . "...</p>";
+                echo "<p class='excerpt'>" . nl2br(htmlspecialchars(strip_tags(substr($row["content"], 0, 200)))) . "...</p>";
+
                 echo "</div>";
                 echo "</article>";
             }
