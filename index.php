@@ -71,7 +71,7 @@
     <img src="img/logo.png" alt="Illustration">
     <h2>Serving at the leading edge of integrated systems design, The Mushroom Farm is prototyping and implementing the solutions needed to steward the transition ahead.</h2>
     <p>
-      Nestled in the heart of Pulilan, Bulacan, <strong>V Mushroom Farm</strong> is committed to sustainable agriculture, transforming traditional farming into a regenerative system that benefits both people and the planet.
+      Nestled in the heart of Pulilan, Bulacan, <strong>Queen V Mushroom Farm</strong> is committed to sustainable agriculture, transforming traditional farming into a regenerative system that benefits both people and the planet.
     </p>
     <p>
       Through implementation of the solutions needed in today’s world, The Mushroom FARM reconnects humanity to the inherent abundance in our natural systems, activating planetary regeneration.
